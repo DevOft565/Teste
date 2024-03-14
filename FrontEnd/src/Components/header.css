@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 10px;
+}
+
+#conteudo ul {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    max-width: 200px;
+    right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
