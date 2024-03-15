@@ -12,8 +12,6 @@ function header() {
                     <li><a href="#">Contato</a></li>
                 </ul>
             </div>
-            
-            <hr />
         </header>
     );
 };

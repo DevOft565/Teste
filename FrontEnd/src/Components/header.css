@@ -2,6 +2,9 @@ header {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    background-color: #010101;
+    border-bottom: 1px solid #131313;
+    box-shadow: 10px 0px 10px #222;
 }
 
 #conteudo {
@@ -10,17 +13,28 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 8px 10px;
+    padding: 12px 14px;
 }
 
 #conteudo ul {
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 100%;
     max-width: 200px;
     right: 0px;
     justify-content: space-between;
     align-items: center;
-    text-decoration: none;
     list-style: none;
+    margin-left: 10px;
+}
+
+#conteudo h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+#conteudo ul li a {
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
 }
